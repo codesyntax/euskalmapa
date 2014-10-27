@@ -1,0 +1,56 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Euskalmapa Bilaketa</title>
+
+	<link rel="stylesheet" type="text/css" href="./st/style_euskalmapa.css"/>
+    <link rel="stylesheet" href="./st/global.css" type="text/css" media="screen" />
+    <link rel="shortcut icon" type="image/ico" href="./favicon.ico" />
+	<script type="text/javascript" src="./st/euskalmapa_openlayers.js"></script>
+	<script type="text/javascript" src="./st/OpenLayers.js"></script>
+	<script type="text/javascript" src="./st/OpenStreetMap.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.js"></script>
+    
+	</head><body onload="setfocus('address');">
+	<div id="seachheader">
+		
+				
+		    <div id="logo">		
+					
+		    <h1>
+		       <a href="http://www.euskalmapa.com/">Euskal Mapa</a>
+			<span class="description">Munduko mapa euskaraz</span>
+		    </h1>
+		    
+		        </div>
+					
+			
+		<div id="form">				
+		      
+		      <input id="address" name="address" value="">
+		       <input id="btnSubmit" type="submit" onclick="user_submit(); return false;" value="Bilatu" />
+		
+		</div>		    
+					 
+                <div id="about">	
+                    <a href="http://www.euskalmapa.com/bloga/honi-buruz/" >Honi buruz</a><span></span>  
+                    <a href="http://www.euskalmapa.com/bloga/honi-buruz/about" >About (English)</a>
+                    
+                </div>	
+                	
+				
+	</div>
+	
+    
+    <div id="container">     
+        <div id="map" />
+        
+	</div>
+     
+     
+	
+
+	<script type="text/javascript">
+        init();   
+        
+    </script>
+
+</body></html>

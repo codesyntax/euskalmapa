@@ -1,0 +1,160 @@
+*{-moz-box-sizing: border-box;}
+body {
+  margin:0px;
+  padding:0px;
+  overflow: hidden;
+  background:#ffffff;
+  height: 100%;
+  font: normal 12px/15px arial,sans-serif;
+
+}
+
+#logo {
+float:left;
+margin-left: 5px;
+}
+#form {
+float:left;
+margin-left:15%;
+margin-top:1em;
+}
+#about {
+float:right;
+margin-right:2em;
+margin-top:15px;
+}
+
+
+#seachheader {
+  position:absolute;
+  z-index:5;
+  top:0px;
+  left:0px;
+  width:100%;
+  /*height:45px;*/
+  background:#fff;
+  border-bottom: 2px solid #ccc;
+  
+}
+
+#seachheader h1 {
+    margin-top: 0.55em;
+    padding: 0;
+   
+}
+
+
+#seachheader h1 a {
+   
+    border:medium none;
+    color:#000000;
+    text-decoration:none;
+    /*border-bottom:1px solid #EEEEEE;*/
+    /*color:#0066CC;*/
+    text-decoration:none;
+   
+}
+#seachheader span {
+    color:#AAAAAA;
+    font:italic 13px Georgia;
+    letter-spacing:0;
+    margin-left:10px;
+    
+}
+
+#address {
+  width:270px;
+}
+
+#container
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#searchresults{
+  position:absolute;
+  z-index:3;
+  top:50px;
+  width:200px;
+  height: 100%;
+  background:#ffffff;
+  border: 1px solid #ffffff;
+  overflow: auto;
+}
+
+#searchresults a {
+  margin-left: 180px;
+}
+
+#map{
+  position:absolute;
+  z-index:1;
+  top:48px;
+  /*left:200px;*/
+  width:100%;
+  height:95%;
+  background:#eee;
+}
+
+.result {
+  margin:5px;
+  margin-bottom:0px;
+  padding:2px;
+  padding-left:4px;
+  padding-right:4px;
+  /*border-radius: 5px;*/
+  
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background:#F0F7FF;
+  border: 2px solid #D7E7FF;
+  font: normal 12px/15px arial,sans-serif;
+  cursor:pointer;
+}
+.result img{
+  float:right;
+}
+.result .latlon{
+  display: none;
+}
+.result .place_id{
+  display: none;
+}
+.result .type{
+  color: #999;
+  text-align:center;
+  font: normal 9px/10px arial,sans-serif;
+  padding-top:4px;
+}
+.result .details, .result .details a{
+  color: #999;
+  text-align:center;
+  font: normal 9px/10px arial,sans-serif;
+  padding-top:4px;
+}
+.noresults{
+  color: #000;
+  text-align:center;
+  font: normal 12px arial,sans-serif;
+  padding-top:4px;
+}
+.more{
+  color: #ccc;
+  text-align:center;
+  padding-top:4px;
+}
+.disclaimer{
+  color: #ccc;
+  text-align:center;
+  font: normal 9px/10px arial,sans-serif;
+  padding-top:4px;
+}
+form{
+  margin:0px;
+  padding:0px;
+}
